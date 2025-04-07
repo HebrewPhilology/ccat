@@ -1,4 +1,4 @@
-# This script downloads all the folders, subfolder and files from a repository website
+# This script downloads all the folders, subfolders and files from a repository website
 # Frédérique Michèle Rey 2025
 # v. 1.0
 
