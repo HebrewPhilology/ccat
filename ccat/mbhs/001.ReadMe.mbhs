@@ -1,0 +1,789 @@
+                Westminster Hebrew Morphological Database
+                             Version 1.0
+                        (Last revised 9/18/91)
+           Modified to reflect CCAT format of the Database (6/93)
+
+
+                               Table of contents
+0. Introduction and History
+1.0 Data
+1.1 Conceptual Structure (bookchap#:vs#,word#.part# text lemma@analysis)
+1.2 Data Sample: 2 Samuel 2:5
+1.3 Transliteration and Symbols used in text and lemmas
+1.4 Explanation of Analysis Codes
+1.4.1 Use of the '@' (Hebrew) or '%' (Aramaic)
+1.4.2 Table of symbols for the analysis
+    CATEGORY #1  Paragraphing      <x
+    CATEGORY #2  Particle          <P-
+    CATEGORY #3  Pronoun           <pi-
+    CATEGORY #4  Noun              <n-
+    CATEGORY #5  Adjective/Numeral <a-
+    CATEGORY #6  Verb              <v-
+    CATEGORY #7  Suffixes          <-X-
+1.4.3 Detailed explicaton of 2 Samuel 2:5
+2.0 Some Special Comments on the Data
+2.1 Our Standard for Analysis
+2.2 KETIV-QERE
+   a) Simple Ketiv-Qere
+   b) Ketiv in two parts, qere in one
+   c) Ketiv in one part, qere in two
+   d) Ketiv following maqqef
+   e) Ketiv and Qere with maqqef
+   f) Ketiv and Qere internal to compound name
+   g) Qere without Ketiv (qere wela ketiv -- qwlk)
+   h) Ketiv without Qere (ketiv wela qere -- kwlq)
+2.3 MISCELLANEOUS NOTES OF IMPORTANCE
+   a) Slash ('/') to indicate beginning of suffix in textual entry
+   b) Directional suffix on first word of a compound name
+   c) Two Suffixes on a single word (verbs only)
+   d) Article as part of proper name ('//')
+   e) Article with inseparable preposition ('<Pp+Pa')
+   f) Run-on words (textual corruption in manuscript)
+   g) Space or maqqef '-' mean new words except...
+   i) Concerning Aramaic
+3.0 Problems and known errors
+4.0 Other documents to consult
+4.1 Michigan Encoding Manual
+4.2 Westminster Supplement to the Michigan Manual
+4.3 Articles
+
+
+0. Introduction and History
+
+The Westminster edition of the machine-readable morphologically tagged text
+of BHS has been years in the preparation and verification.
+
+The electronic textual basis for the morphology is the
+Michigan-Claremont-Westminster text which was originally encoded at the
+University of Michigan under the direction of Van Parunak and
+Dick Whitaker funded by a grant from the David and Lucille Packard Foundation
+and then verified at Westminster Seminary (Philadelphia) under the direction
+of Emanuel Tov and Alan Groves funded by a grant from the NEH.
+
+The morphology has been funded by the Packard Humanities Institute and
+Westminster Seminary (Philadelphia).  The tagging was initiated by Dick
+Whitaker and an automatic parsing program developed on the IBYCUS.  Alan
+Groves and a team of assistants from Westminster verified the tags over
+a four year period to produce the present version 1.0 of the tagged text.
+The machine-readable parsing of all Hebrew verbs produced by Todd Beall
+(Capital Seminary) contributed vastly to the verification of the verbal
+analysis.  The morphology produced by the Centre Informatique et Bible,
+Abbaye de Maredsous (Belgium) contributed greatly to the verification of
+the rest of the material.
+
+This first release comes with a knowledge of some errors in the text and
+in the tagging.  We will soon have the opportunity to begin a
+cross verification of the morphologically analyzed text produced by the
+Werkgroep Informatica of the Vrije Universiteit (Amsterdam) which will
+clean-up some nagging problems mentioned below.  Because that process
+will take some 18 months more time (minimally) and because the present
+state of the data is sufficiently good to make it usable, the release 1.0
+comes now rather than after this future verification.  We ask that you
+forebear any imperfections and report them to us that we might make
+version 2.0 a better tool.
+
+Finally, what you are receiving is only the data.  Search and retrieval must
+be performed by means of existing, generic tools with search capabilities or
+by means of specialized programs which are being designed to work specifically
+with the morphology.  
+
+1.0 Data
+
+1.1 Conceptual Structure
+ ____________________________________________
+|                                            |
+|      Sample text:  WA<Pc>W                 |
+|                                            |
+| WA              <Pc>               W       |
+| text{textnote}  <analysis{suffix}> lemma   |
+|____________________________________________|
+
+  N.B.  {} enclose optional fields (i.e. tags) not present in all data
+           records (i.e. lines).
+
+1. Citation
+    The citation method used is an implicit code used on all texts
+    distributed by CATSS.  For more information please see the file
+    "BETACODE.txt"
+
+2.  The text is that used in the BHS text as it appears in the 
+    Michigan-Claremont-Westminster text
+    (cantillation has been stripped -- '^' indicates its position)
+
+    "Orthographic word" is defined as that form which is bounded by
+    white space on both ends.
+
+    e.g.  2s2:5,16 (word number 16) has two parts because they
+    are joined by the maqqef (-).
+    The only exceptions we make to this are compound names
+    (see 2s2:5,5.1) and Ketiv-Qere.
+
+      - In the compound names a '~' is used to join the two parts if
+        they are not joined by the maqqef ('-').
+
+      - For the Ketive-Qere see the discussion at the end of this
+        document.
+
+    Each orthographic word may have several parts (e.g. article or
+    conjunction waw) which require separate analysis in our system.
+    In these cases the parts appear on separate lines.  The fact that
+    the parts are considered to be of the same orthographic word is
+    represented by the presence of maqqef (-)  or by a back-slash *(\)
+    at the end of the earlier form,
+
+3.  Sometimes a textual note follows the text and that is
+    signaled by a right-hand bracket (]) plus a single character.
+    (e.g. ]3) indicates some note on the text.  See SUPPLMT.WTS
+    on the Right-Hand Bracket notation.
+
+4. '<' separates the text and the analysis.  This includes the part of 
+    speech with other parsing information followed (see section on analysis 
+    below)
+
+5. {optional} If a pronominal or other suffix exists it is tagged at the
+   end of the analysis of the word with which it is attached indicated 
+   by an upper case 'X' and then further identifiers (e.g. person, gender,
+   number in the case of pronominal suffixes -- X3ms).
+
+6. '>' separates the analysis from the dictionary form (lemma)
+   lexical entry per Even Shoshan (see discussion below).
+
+1.2   Data Sample: 2 Samuel 2:5
+
+~a"0007"b"009"c"2 Samuel"d"HebBibMorph"x1
+~~a"(c) 1992"b"Westminster Theological Sem."x"Chapter"y"verse"
+.
+.
+.
+~y
+WA\<Pc>W
+Y.I$:LA^X<vqi3ms>$LX
+D.FWID^<np>D.FWID
+MAL:)FKI^YM<ncmp>MAL:)FK:
+)EL-<Pp>)EL
+)AN:$"^Y<ncmpc>)IY$
+YFB"^Y$~G.IL:(F^D<np>YFB"Y$~G.IL:(FD
+WA\<Pc>W
+Y.O^)MER<vqi3ms>)MR
+):AL"Y/HE^M<PpX3mp>)EL
+B.:RUKI^YM<vqsmp>B.RK:
+)AT.EM^<pi2mp>)AT.EM
+LA^\<Pp+Pa>L
+YHWF^H<np>YHWH
+):A$E^R<Pr>):A$ER
+(:A&IYTE^M<vqp2mp>(&H
+HA\<Pa>H
+XE^SED<ncms>XESED
+HA\<Pa>H
+Z.E^H<ams>ZEH
+(IM-<Pp>(IM
+):ADO^N"Y/KEM^<ncmpcX2mp>)FDOWN
+(IM-<Pp>(IM
+$F)^W.L<np>$F)W.L
+WA^\<Pc>W
+T.IQ:B.:R^W.<vqi2mp>QBR
+)OT/O^W<PoX3ms>)"T
+
+1.3 Transliteration and symbols used in text and lemmas
+
+     Consonants                                      Vowels
+
+Hebrew     Westminster                      Hebrew     Westminster
+
+ Alef         )                           Patah        A
+ Bet          B                           Qamets       F
+ Gimel        G                           Segol        E
+ Dalet        D                           Sere         "
+ Heh          H                           Hireq        I
+ Waw          W                           Holem        O
+ Zayin        Z                           Qamets
+ Het          X                             Hatuf      F
+ Tet          +                           Qibbuts      U
+ Yod          Y                           Shureq       W.
+ Kaf          K                           Shewa        :
+ Lamed        L                           Hatef
+ Mem          M                             Patah      :A
+ Nun          N                           Hatef
+ Samek        S                             Segol      :E
+ Ayin         (                           Hatef
+ Peh          P                             Qamets     :F
+ Sade         C
+ Qof          Q                              Miscellaneous
+ Resh         R
+ Sin          &                           Ketiv        *
+ Shin         $                           Qere         **
+ Tav          T                           Dagesh       .
+                                          Maqqef       -
+                                          Accent       ^
+                                     Compound Joint    ~  (a space in BHS)
+                                     Suffix Separator  /
+      Part of same orthographic word as following line \
+
+
+1.4 Explanation of Analysis Codes
+
+1.4.1 Use of the '<' (Hebrew) or '<%' (Aramaic)
+
+< (Hebrew) or <% (Aramaic) separates text from the analysis.  What
+follows is a list of categories, determined by the symbol following the '<'
+or '<%'.  '>' marks the end of the analysis.  UPPER AND LOWER CASE ARE 
+STRICTLY OBSERVED.
+
+
+1.4.2 Table of symbols for the analysis
+
+      (Characters between '[]' are variable -- usually person, gender, number)
+      ('*' in the tables below means to see a corresponding note)
+
+  <x
+    CATEGORY #1  Paragraphing
+      <x = Paragraph Marker/Nun
+          (P<x, S<x, N<x only)
+
+  <P-
+    CATEGORY #2  Particle
+      <Pa = article  (with inseparable prep = <Pp+Pa)
+      <Pc = conjunction
+      <Pd = adverb
+      <Pg = interrogative
+      <Pi = interjection
+      <Pn = negative
+      <Po = direct object marker
+      <Pp = preposition
+      <Pr = relative
+
+  <pi-
+    CATEGORY #3  Pronoun
+      <pii      = interrogative
+      <pi[pg#]* = independent
+   (e.g. 'pi3ms' = 3rd person masculine singular independent personal pronoun)
+
+  <n-
+    CATEGORY #4  Noun
+      <np       = proper name
+      <ng       = gentilic (only implemented in Aramaic)
+      <nc[g#s]* = common noun
+        (e.g. 'ncmpc' = masculine plural common noun in construct state)
+
+  <a-
+    CATEGORY #5 Adjective/Numeral
+      <a[g#s]* = adjective
+        (e.g. 'afs' = feminine singular adjective)
+
+  <-X-
+    CATEGORY #6  Suffixes
+      <[word_analysis]Xh      = paragogic heh
+      <[word_analysis]Xd      = directional heh
+      <[word_analysis]Xn      = paragogic nun
+      <[word_analysis]X[pg#]* = pronominal suffix (nouns)/object suffix (verbs)
+        (e.g. 'ncfpcX2mp' = a construct feminine plural noun
+                                    with a 2nd masculine plural suffix)
+
+  <v-
+    CATEGORY #7  Verb
+      <vsapg#s** = verb  (verbal roots = unvocalized)
+        (e.g. 'vqi3ms' = qal imperfect third person masculine singular)
+
+          Qal Synopsis for the masculine singular of the verb:
+
+            vqp3ms     perfect third masculine singular
+            vqi3ms     imperfect third masculine singular
+            vqi3msj    imperfect third masculine singular, apocopated
+            vqvms      imperative masculine singular
+            vqa        infinitive absolute
+            vqc        infinitive construct
+            vqPms      participle masculine singular
+            vqPmsc     participle masculine singular construct
+            vqsms      passive participle masculine singular
+            vqsmsc     passive participle masculine singular construct
+
+    _________________________________________________________________
+
+    *Person/gender/number for pronouns, common nouns, verbs and adjectives:
+      (pg# = person, gender, number;  g#s = gender, number, state)
+
+            p                g                #                 s
+     1=first person     m=masculine      s=singular    [absolute = unmarked]
+     2=second person    f=feminine       p=plural        c=construct
+     3=third person     b=both (noun)    d=dual          d=determined (Aramaic)
+                        c=common (verb)
+    _________________________________________________________________
+
+    **For Verbs:
+      (sapg#s = stem/aspect/person/gender/number/state.  See above for pg#s.)
+
+        s                    a                           other
+      q=qal              p=perfect                 j=apocopated form
+      n=nifal            i=imperfect               h=cohortative form
+      p=piel             v=imperative
+      P=pual             c=infinitive construct
+      t=hitpael          a=infinitive absolute
+      h=hifil            P=particple
+      H=hofal            s=qal passive participle
+      Q=truly qal passive
+
+         Polel type stems are treated as regular piel, pual, hitpael.
+
+    Aramaic stems are as follows:
+
+      A = aph
+      B = haph
+      C = heph
+      D = hoph
+      E = htap
+      F = htpe
+      G = htpo
+      H = hish
+      I = ish
+      J = ith
+      K = itpa
+      L = itpe
+      M = pael
+      N = peal
+      O = peil
+      P = pol
+      Q = saph
+      R = shap
+      S = htpa
+
+
+1.4.3 Detailed explicaton of 2 Samuel 2:5
+
+     [NB:  '^' means the cantillation position
+           text<analysis>lemma]
+
+~y
+  Verse header.  There is one for each verse and chapter 
+  (see BETACODE.txt).
+
+WA\<Pc>W
+  Word#1/First part
+  BHS Text = WA
+  Analysis = Pc (particle: conjunction)
+  Lemma    = W
+
+Y.I$:LA^X<vqi3ms>$LX
+  Word#1/Second part
+  BHS Text =   Y.I$:LA^X
+  Analysis = vqi3ms (verb, qal imperfect, 3 masc. singular)
+  Lemma    = $LX (unvocalized lemmas for verbs)
+
+D.FWID^<np>D.FWID
+  Word#2/First part
+  BHS Text = D.FWID^
+  Analysis = np (proper noun)
+  Lemma    = D.FWID
+
+MAL:)FKI^YM<ncmp>MAL:)FK:
+  Word#3/First part
+  BHS Text = MAL:)FKI^YM
+  Analysis = ncmp (common noun, masc. plural)
+  Lemma    = MAL:)FK:
+
+)EL-<Pp>)EL
+  Word#4/First part
+  BHS Text = )EL-  ('-' indicates maqqef with entry)
+  Analysis = Pp (particle: preposition)
+  Lemma    = )EL
+
+)AN:$"^Y<ncmpc>)IY$
+  Word#4/Second part
+  BHS Text = )AN:$"^Y
+  Analysis = ncmpc (common noun, masc. plural construct)
+  Lemma    = )IY$
+
+YFB"^Y$~G.IL:(F^D<np>YFB"Y$~G.IL:(FD
+  Word#5/First part
+  BHS Text = YFB"^Y$~G.IL:(F^D (~ joins a compound name not joined by maqqef)
+  Analysis = np (proper noun)
+  Lemma    = YFB"Y$~G.IL:(FD
+
+WA\<Pc>W
+  Word#6/First part
+  BHS Text = WA
+  Analysis = Pc (particle: conjunction)
+  Lemma    = W
+
+Y.O^)MER<vqi3ms>)MR
+  Word#6/Second part
+  BHS Text = Y.O^)MER
+  Analysis = vqi3ms (verb, qal, imperfect, 3 masc. singular)
+  Lemma    = )MR    (unvocalized lemmas for verbs)
+
+):AL"Y/HE^M<PpX3mp>)EL
+  Word#7/First part
+  BHS Text = ):AL"Y/HE^M ('/' marks beginning of suffix in text entry)
+  Analysis = PpX3mp (particle: preposition with 3 masc. singular suffix)
+  Lemma    = )EL
+
+B.:RUKI^YM<vqsmp>B.RK:
+  Word#8/First part
+  BHS Text = B.:RUKI^YM
+  Analysis = vqsmp (verb, qal, perfect, pass. ptcple, masc. plural)
+  Lemma    = B.RK:
+
+)AT.EM^<pi2mp>)AT.EM
+  Word#9/First part
+  BHS Text = )AT.EM^
+  Analysis = pi2mp (independent pronoun, 2 masc. plural)
+  Lemma    = )AT.EM
+
+LA^\<Pp+Pa>L
+  Word#10/First part
+  BHS Text = LA^
+  Analysis = Pp+Pa (particle: preposition with article, heh absent)
+  Lemma    = L
+
+YHWF^H<np>YHWH
+  Word#10/Second part
+  BHS Text = YHWF^H
+  Analysis = np (proper noun)
+  Lemma    = YHWH  (lemma is intentionally without vocalization)
+
+):A$E^R<Pr>):A$ER
+  Word#11/First part
+  BHS Text = ):A$E^R
+  Analysis = Pr (particle: relative)
+  Lemma    = ):A$ER
+
+(:A&IYTE^M<vqp2mp>(&H
+  Word#12/First part
+  BHS Text = (:A&IYTE^M
+  Analysis = vqp2mp (verb, qal, perfect, 2 masc. plural)
+  Lemma    = (&H
+
+HA\<Pa>H
+  Word#13/First part
+  BHS Text = HA
+  Analysis = Pa (particle: article)
+  Lemma    = H
+
+XE^SED<ncms>XESED
+  Word#13/Second part
+  BHS Text = XE^SED
+  Analysis = ncms (common noun, masc. singular)
+  Lemma    = XESED
+
+HA\<Pa>H
+  Word#14/First part
+  BHS Text = HA
+  Analysis = Pa (particle: article)
+  Lemma    = H
+
+Z.E^H<ams>ZEH
+  Word#14/Second part
+  BHS Text = Z.E^H
+  Analysis = pi3ms (independent pronoun, 3 masc. singular)
+  Lemma    = ZEH
+
+(IM-<Pp>(IM
+  Word#15/First part
+  BHS Text = (IM-
+  Analysis = Pp (particle: preposition)
+  Lemma    = (IM
+
+):ADO^N"Y/KEM^<ncmpcX2mp>)FDOWN
+  Word#15/Second part
+  BHS Text = ):ADO^N"Y/KEM^ ('/' marks beginning of suffix in text entry)
+  Analysis = ncmpcX2mp (common noun, masc. plural construct with 2mp suffix)
+  Lemma    = )FDOWN
+
+(IM-<Pp>(IM
+  Word#16/First part
+  BHS Text = (IM-
+  Analysis = Pp (particle: preposition)
+  Lemma    = (IM
+
+$F)^W.L<np>$F)W.L
+  Word#16/Second part
+  BHS Text = $F)^W.L
+  Analysis = np (proper noun)
+  Lemma    = $F)W.L
+
+WA^\<Pc>W
+  Word#17/First part
+  BHS Text = WA
+  Analysis = Pc (particle: conjunction)
+  Lemma    = W
+
+T.IQ:B.:R^W.<vqi2mp>QBR
+  Word#17/Second part
+  BHS Text = T.IQ:B.:R^W.
+  Analysis = vqi2mp (verb, qal, imperfect, 2 masc. plural)
+  Lemma    = QBR
+
+)OT/O^W<PoX3ms>)"T
+  Word#18/First part
+  BHS Text = )OT/O^W
+  Analysis = PoX3ms (particle: direct object with 3ms suffix)
+  Lemma    = )"T
+
+
+2.0 Some Special Comments on the Data
+
+2.1 Our Standard for Analysis
+
+We have used Even Shoshan's Hebrew Concordance (ES) as the standard against
+which we compared our analysis.  No tool exists with BHS as its basis
+and other tools that exist are either not exhaustive (e.g. Koehler-
+Baumgartner) or the textual basis was eclectic/unknown (e.g. Mandelkern).
+ES had the twin advantages of being exhaustive and having a known
+textual basis (the Koren text) which was available to us for comparison
+where the BHS text differed from the text in the entry in ES (only
+a small number of cases).
+
+The primary utility of ES was settling issues of lemma or part of speech.
+We were not always in agreement with ES either because ES was in error
+either through typography and omission or because we viewed things
+differently.  We have noted such differences but this data is not
+yet available and will not be for some time.  The complication that this
+makes for the user is that a difference between ES and our material
+can either be a Koren vs. BHS difference or an error in ES or an error on
+our part.  On some issues ES provides no relevant information so we cannot
+be accurately checked at that point.  Our apologies for this problem but
+in order to get the data out sooner rather than later it was necessary
+to do things this way.
+
+
+
+2.2 KETIV-QERE
+
+     This masoretic feature presents more challenges to the data structure
+     than any other single factor.  First of all, we must list the Ketiv and
+     Qere as separate words (unlike BHS which uses one 'nonsense' graphical
+     word to indicate both).  Thus word counts in verses with KQ will be
+     skewed by the number of KQ in a verse.
+
+     Secondly, there are simply a number of anomalous situations created by
+     trying to account for this feature within our normal encoding.  A list
+     of the kinds of situations follows.
+
+
+   a) Simple Ketiv-Qere
+     Gen 49:10,9&10
+       *$IYL/OH<np>$IYLOH
+       **$IYL/O^W<np>$IYLOH
+
+
+   b) Ketiv in two parts, qere in one
+     2Sa 10:9,12&13
+       *B.:\<Pp>B.
+       *YI&:RF)"L<np>YI&:RF)"L
+       **YI&:RF)"^L<np>YI&:RF)"L
+
+   c) Ketiv in one part, qere in two
+     2Sa 12:22,11&12
+       *Y:XFN./ANIY<vqi3msX1cs>XNN
+       **W:\<Pc>W
+       **XAN./A^NIY<vqp3msX1cs>XNN
+
+   d) Ketiv following maqqef (note word and part numbering)
+     2Sa 3:25,9-11 
+       W:\<Pc>W
+       )ET-<Pp>)"T
+       *MIBOW)/EKF<ncmscX2ms>
+       **MO^WBF)/E^KF<ncmpcX2ms>MFWBOW)
+       W:\<Pc>W
+       LF\<Pp>L
+       DA^(AT<vqc>YD(
+
+   e) Ketiv and Qere with maqqef (note word and part numbering)
+     2Sa 14:7,21-23
+       L:\<Pp>L
+       BIL:T.I^Y<Pp>B.IL:T.IY
+       *&OWM-<vqc>&YM
+       **&IYM-<vqc>&YM
+       L:\<Pp>L
+       )IY$/I^Y<ncmscX1cs>)IY$
+
+   f) Ketiv and Qere internal to compound name
+         (Js18:24 and 2k14:7 have the only such other occurrences).
+     2Ki 23:10,4&5
+       B.:\<Pp>B.
+       G"^Y~*B:N"Y-HIN.O^M<np>G."Y)~BEN-HIN.OM
+       G"^Y~**BEN-HIN.O^M<np>G."Y)~BEN-HIN.OM
+
+   g) Qere without Ketiv (qere wela ketiv -- qwlk)
+     2Sa 8:3,10&11
+       B.I^\<Pp>B.
+       N:HAR-<ncmsc>NFHFR
+       *kk<qwlk>kk
+       **P.:RF^T<np>P.:RFT
+
+   h) Ketiv without Qere (ketiv wela qere -- kwlq)
+       Eze 48:16,11.1
+       *X:AM"$<afsc>XFM"$
+       **qq<kwlq>qq
+
+
+2.3 MISCELLANEOUS NOTES OF IMPORTANCE
+
+   a) Slash ('/') to indicate beginning of suffix in textual entry
+
+      All suffixes are attached to the end of the analysis of the form
+      to which they are attached rather than having a line to themselves.
+      A slash in the text indicates the beginning of the suffix (these
+      slashes are occasionally omitted or misplaced).  The slash is always
+      intentionally omitted in the masculine plural form with a 1cs suffix.
+
+       2Sa 2:5,7.1
+       ):AL"Y/HE^M<PpX3mp>)EL
+
+   b) Directional suffix on first word of a compound name
+
+       (Potential confusion because directional heh is suffixed to first
+       in the compound and not the second -- '/' indicates suffix position
+       and Xd marks the analysis for the directional)
+
+       Gen 28:2,3.1
+       P.AD.E^N/F^H~):ARF^M<npXd>P.AD.AN~):ARFM
+
+   c) Two Suffixes on a single word (verbs only)
+
+      Twice in the Psalms and several times in Proverbs, there is both
+      a paragogic nun and an object suffix which means an analysis will
+      indicate two suffixes.
+
+       Ps 63:4,5.1
+       Y:$AB.:X^W./N/:KF<vpi3mpXnX2ms>$BX
+
+   d) Article as part of proper name ('//')
+
+      Occasionally, proper nouns include articles as part of the name.
+      A double slash is used to indicate this.
+
+      Gen 35:27,6.1
+       QIR:YA^T~HF^//)AR:B.A^(<np>QIR:YAT~HF//)AR:B.A(
+
+   e) Article with inseparable preposition ('<Pp+Pa')
+
+      Article with inseparable preposition is tagged with '+Pa' at the end
+      of the analysis for the preposition Unlike the article when the 'H'
+      is present, this occurrence of the article does not receive a line
+      to itself.
+
+      Gen 49:11,2
+       LA\<Pp+Pa>L
+       G.E^PEN^<ncbs>G.EPEN
+              (as opposed to)
+      Gen 49:14,6.1
+       HA^\<Pa>H
+       M.I$:P.:TF^YIM<ncmd>MI$:P.:TAYIM
+
+   f) Run-on words (textual corruption in manuscript)
+
+      Run-on words (textual critical issue) must be analyzed separately.
+      There is no space or maqqef in the text and therefore treated as a
+      single orthographic entity but we analyze them separately on two
+      lines treating them as one word with two parts.
+
+      (For the meaning of the ']3' code, See Westminster Supplement on BHS.)
+
+      2Ki 15:10,6.1
+       QF^BFL:\]3<Pd>QOBEL
+       (F^M]3<ncms>(AM
+
+   g) Space or maqqef '-' mean new words except...
+
+      A text entry or lemma may not have anything following a maqqef
+      except for the case of compound names or nouns (see 1.1 and
+      discussion of word# and 2Sa 2:5,5.1.)
+
+
+   i) Concerning Aramaic
+
+        Aramaic sections are indicated with a '%' at the beginning of the 
+        analysis after the '<'.  Aramaic sections are found as follows:
+
+          Gn31:47 (word numbers 3 and 4)
+          Je10:11
+          Daniel 2:4 (fifth word) - 7:28
+          Ezra   4:8 - 6:18 and 7:12 - 27
+
+        The Daniel, Ezra and Jeremiah passages have been marked as Aramaic but
+        the two Aramaic words in Genesis have NOT been marked as Aramaic
+        (i.e. they have '<' and NOT '<%') because we have treated them as
+        proper nouns though could be analysed as common nouns.
+
+         Gen 31:47,3.1
+          Y:GA^R~&FH:ADW.T//F^)<np>Y:GAR~&FH:ADW.T//F)
+                           (as opposed to)
+          Y:GA^R<%ncms>Y:GAR
+          &FH:ADW.T<%ncmsd>&FH:ADW.
+          F^)<%Pa>F)
+
+
+3.0 Problems and known errors
+
+We have made choices in lemma and analysis for ambiguous forms (e.g. forms
+that could have more than one analysis or lemma or both -- adjectives that
+also inflect as stative verbs are one particular issue) based on our
+understanding of context.  This will also be an issue of debate because
+of the interpretative element involved.
+
+There are already known problems with the data as it now stands.
+
+ - Slashes (indicating suffixes, etc.) are sometimes misplaced.  This will
+   be corrected in the next release.
+ - The cardinal numbers are not consistently labeled with respect to gender.
+ - Only cases of the Direct Object Marker with a suffix are marked as
+   analysis '<Po'.  Hence, the Object Marker and preposition are not
+   distinguishable at this point.
+ - LFMFH (contrary to the note 2.8.2 in the Westminster Supplement to the
+   encoding of BHS) is treated as a unit rather than as a two part compound.
+   This was accidental but it may better reflect the linguistic situation of
+   all such forms.
+ - Some of the negative particles may be labeled 'Pd' instead of 'Pn'.
+ - The construct tag was meant to reflect only those cases where there were
+   clear inflectional differences between the construct and absolute form
+   (our intention was to make all context bound decisions in a second
+   version).  Again, this is somewhat muddled because certain forms have
+   already been inconsistently analyzed on the basis of context where their
+   state would otherwise be ambiguous.
+ - When the interrogative particle 'H:A' is alternatively vocalized,
+   the tagging may be incorrect.
+ - When L:(UM.AT< is the root the entry will be some form of (UM.AT and the
+   preceding record will be 'L:\<Pp>L'.
+
+We hold no illusions.  There will be other problems with the data and we
+ask that in accepting the user agreement that you are at the same time
+accepting a responsibility to communicate errors to us.
+
+All errors and queries should be addressed to:
+
+   Prof. Alan Groves
+   Westminster Seminary
+   Philadelphia, PA  19118
+   (215)887-5511
+
+
+4.0 Other documents to consult
+
+4.1 Michigan Encoding Manual
+
+The Michigan encoding manual dicusses how the text itself was encoded.  It
+is useful for understanding why a particular manner of representation was
+chosen.
+
+4.2 Westminster Supplement to the Michigan Manual
+
+In the verification of the electronic BHS done by Westminster Seminary
+a number of problems were encountered and changes made to the original
+encoding.  This is important reading for the morphology because it
+explains differences in the the between the BHS 1983 printed edition and
+the current electronic version (signalled by ']' and a single character).
+
+4.3 Articles
+
+There are two articles on the text and the morphology which may be of
+further interest:
+
+Groves, J. Alan.  "Correction of Machine-Readable Texts by Means of
+  Automatic Comparison: Help with Method."  In <it>Bible and Computer:
+  Methods, Tools, Results: Proceedings of the Second International
+  Colloquium</it>, 271-98.  Paris: Champion-Slatkine, 1989.
+
+Groves, J. Alan.  "On Computers and Hebrew Morphology."
+  In <it>Computer Assisted Analysis of Biblical Texts, Vol. 7, Applicatio,
+  ed. E. Talstra</it>, 45-86.  Amsterdam: Free University Press, 1989.
+

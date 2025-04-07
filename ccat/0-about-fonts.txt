@@ -1,0 +1,29 @@
+Most of the older files here were created before Hebrew and Greek 
+fonts were widely available.  Therefore they use a system of 
+transliteration called Beta Code. The following page shows how to 
+read Beta Code:
+http://ccat.sas.upenn.edu/gopher/text/religion/biblical/0-betacode.txt
+
+There are some fonts that use the same characters as beta code.  You can 
+get them here:
+	http://www.sbl-site.org/Resources/Resources_BiblicalFonts.aspx
+For example, if you put Greek into SPIonic, you'll see Greek, more or less. 
+This doesn't work so well for Hebrew, because the direction of writing is 
+reversed. 
+
+At this point, most people are using our data as formatted by companies 
+that have put them into convenient fonts.  However, for people who like 
+to "roll their own", we do have some old programs that might work on 
+your system.  For example, for MacOS 9
+	http://ccat.sas.upenn.edu/gopher/other/software/mac/transcribe/
+and for DOS:
+	http://ccat.sas.upenn.edu/gopher/other/software/dos/ccatutil/
+
+Some new files use unicode and should display Hebrew and Greek in 
+any browser and system that uses unicode. 
+
+If you just want the Greek and Hebrew biblical texts, try these sites in 
+a web browser that understands unicode (for example, Firefox):
+	http://www.zhubert.com/
+	http://www.mechon-mamre.org/p/pt/pt0.htm
+

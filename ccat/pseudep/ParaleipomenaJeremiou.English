@@ -1,0 +1,1260 @@
+<teiHeader>
+<fileDesc>
+  <titleStmt>
+    <title>English Translation of the Longer and Shorter 
+           Versions of the Paraleipomena Jeremiou: 
+           electronic editions 
+    </title>
+  </titleStmt>
+  <editionStmt>
+    Public Domain CATSS edition prepared at the University of 
+    Pennsylvania, Center for Computer Analysis of Texts
+  </editionStmt>
+  <extent>
+    Filesize uncompressed: about 48 K
+  </extent>
+  <publicationStmt>
+    <distributor>Center for Computer Analysis of Texts</distributor>
+    <address>College Hall Box 36, University of Pennsylvania, 
+      Philadelphia PA 19104-6303 USA; kraft@ccat.sas.upenn.edu
+    </address>
+    <idno>??</idno>
+    <availability><p>Freely available for non-commercial use 
+      provided that this header is included in its entirety 
+      with any copy distributed and that errors/corrections
+      or other problems are reported to the distributor.</p>
+    </availability>
+    <date>15 Dec 1987</date>
+  </publicationStmt>
+  <notesStmt>
+  </notesStmt>
+  <sourceDesc><p>The Longer Version is based on 
+     <bibl>Paraleipomena Jeremiou: An English Translation, 
+     by Robert Kraft and Ann Elizabeth Purintun 
+     (Seminar Papers of the Society of Biblical Literature 
+     for 1971, vol. 2; SBL, 1971, 327-346)</bibl>, which
+     appeared in slightly revised form in their 1972 edition 
+     of Paraleipomena Jeremiou (Texts and Translations 1: 
+     Pseudepigrapha Series 1; Missoula Montana: Scholars Press
+     for the SBL, 1972).</p>
+     The Shorter Version was translated by William Newby and 
+     edited for electronic publication by Robert Kraft.</p>
+     <p>Both Versions were included on the "Experimental CD-ROM 
+     #1" published by the Packard Humanities Institute in 
+     cooperation with CCAT in December 1987.</p>
+     </sourceDesc>
+</fileDesc>
+<encodingDesc>
+  <editorialDecl><p>File format is a CATSS adaptation of "TLG 
+    Beta Coding" at present, with paragraphs and poetry marked 
+    with the @ sign for indentation levels.</p>
+  </editorialDecl>
+  <refsDecl>
+    <p>Chapters (div1) are marked by "~x" at left margin.</p>
+    <p>Verses (div2) are marked by "~x#y#" at left margin.</p>
+  </refsDecl>
+</encodingDesc>
+<revisionDesc>
+  <change>
+    <date>12 Jun 1994</date>
+    <respStmt><name>Robert Kraft</name><resp>edit format</resp>
+    </respStmt>
+  </change>
+</revisionDesc>
+</teiHeader>
+
+~a"1013"b"002"c"ParJerL"d"OTApoc"x"incip"
+~~x"Chapter"y"verse"
+THE THINGS OMITTED FROM JEREMIAH THE PROPHET
+~x1y1
+@@It came to pass, when the children of Israel were taken captive by
+the king of the Chaldeans, that God spoke to Jeremiah saying:
+@Jeremiah, my chosen one, arise and depart from this city, you and
+@Baruch, since I am going to destroy it because of the multitude of
+@the sins of those who dwell in it.
+~x1y2
+@For your prayers are like a solid pillar in its midst, and like an
+@indestructible wall surrounding it.
+~x1y3
+@Now, then, arise and depart before the host of the Chaldeans
+@surrounds it.
+~x1y4
+And Jeremiah answered, saying:
+@I beseech you, Lord, permit me, your
+@servant, to speak in your presence.
+~x1y5
+And the Lord said to him:
+@Speak, my chosen one Jeremiah.
+~x1y6
+And Jeremiah spoke, saying:
+@Lord Almighty, would you deliver the
+@chosen city into the hands of the Chaldeans, so that the king with
+@the multitude of his people might boast and say: "I have prevailed
+@over the holy city of God"?
+~x1y7
+@No, my Lord, but if it is your will, let it be destroyed by your
+@hands.
+~x1y8
+And the Lord said to Jeremiah:
+@Since you are my chosen one, arise and
+@depart form this city, you and Baruch, for I am going to destroy it
+@because of the multitude of the sins of those who dwell in it.
+~x1y9
+@For neither the king nor his host will be able to enter it unless I
+@first open its gates.
+~x1y10
+@Arise, then, and go to Baruch, and tell him these words.
+~x1y11
+@And when you have arisen at the sixth hour of the night, go out on
+@the city walls and I will show you that unless I first destroy the
+@city, they cannot enter it.
+~x1y12
+When the Lord had said this, he departed from Jeremiah.
+~x2y1
+@@And Jeremiah ran and told these things to Baruch; and as they went
+into the temple of God, Jeremiah tore his garments and put dust on
+his head and entered the holy place of God.
+~x2y2
+And when Baruch saw him with dust sprinkled on his head and his
+garments torn, he cried out in a loud voice, saying:
+@Father Jeremiah, what are you doing?
+@What sin has the people committed?
+~x2y3
+(For whenever the people sinned, Jeremiah would sprinkle dust on his
+head and would pray for the people until their sin was forgiven.)
+~x2y4
+So Baruch asked him, saying:
+@Father, what is this?
+~x2y5
+And Jeremiah said to him:
+@Refrain from rending your garments --
+@rather, let us rend our hearts! And let us not draw water for the
+@trough, but let us weep and fill them with tears! For the Lord will
+@not have mercy on this people.
+~x2y6
+And Baruch said:
+@Father Jeremiah, what has happened?
+~x2y7
+And Jeremiah said:
+@God is delivering the city into the hands of the
+@king of the Chaldeans, to take the people captive into Babylon.
+~x2y8
+And when Baruch heard these things, he also tore his garments and
+said:
+@Father Jeremiah, who has made this known to you?
+~x2y9
+And Jeremiah said to him:
+@Stay with me awhile, until the sixth hour
+@of the night, so that you may know that this word is true.
+~x2y10
+Therefore they both remained in the altar-area weeping, and their
+garments were torn.
+~x3y1
+@@And when the hour of the night arrived, as the Lord had told Jeremiah
+they came up together on the walls of the city, Jeremiah and Baruch.
+~x3y2
+And behold, there came a sound of trumpets; and angels emerged from
+heaven holding torches in their hands, and they set them on the walls
+of the city.
+~x3y3
+And when Jeremiah and Baruch saw them, they wept, saying:
+@Now we know that the word is true!
+~x3y4
+And Jeremiah besought the angels, saying:
+@I beseech you, do not
+@destroy the city yet, until I say something to the Lord.
+~x3y5
+And the Lord spoke to the angels, saying:
+@Do not destroy the city
+@until I speak to my chosen one, Jeremiah.
+~x3y6
+Then Jeremiah spoke, saying:
+@I beg you, Lord, bid me to speak in your presence.
+~x3y7
+And the Lord said:
+@Speak, my chosen one Jeremiah.
+~x3y8
+And Jeremiah said:
+@Behold, Lord, now we know that you are delivering
+@the city into the hands of its enemies, and they will take the people
+@away to Babylon. What do you want me to do with the holy vessels of
+@the temple service?
+~x3y10
+And the Lord said to him:
+@Take them and consign them to the earth, saying:
+@@Hear, Earth, the voice of your creator
+@@@who formed you in the abundance of waters,
+@@@who sealed you with seven seals for seven epochs,
+@@@and after this you will receive your ornaments (?) --
+~x3y11
+@Guard the vessels of the temple service until the gathering of the
+@beloved.
+~x3y12
+And Jeremiah spoke, saying:
+@I beseech you, Lord, show me what I
+@should do for Abimelech the Ethiopian, for he has done many
+@kindnesses to your servant Jeremiah.
+~x3y13
+@For he pulled me out of the miry pit; and I do not wish that he
+@should see the destruction and desolation of this city, but that you
+@should be merciful to him and that he should not be grieved.
+~x3y14
+And the Lord said to Jeremiah:
+@Send him to the vineyard of Agrippa,
+@and I will hide him in the shadow of the mountain until I cause the
+@people to return to the city.
+~x3y15
+@And you, Jeremiah, go with your people into Babylon and stay with
+@them, preaching to them, until I cause them to return to the city.
+~x3y16
+@But leave Baruch here until I speak with him.
+~x3y17
+When he had said these things, the Lord ascended from Jeremiah into
+heaven.
+~x3y18
+@@But Jeremiah and Baruch entered the holy place, and taking the
+vessels of the temple service, they consigned them to the earth as
+the Lord had told them.
+~x3y19
+And immediately the earth swallowed them.
+~x3y20
+And they both sat down and wept.
+~x3y21
+@@And when morning came, Jeremiah sent Abimelech, saying:
+@Take a basket
+@and go to the estate of Agrippa by the mountain road, and bring back
+@some figs to give to the sick among the people; for the favor of the
+@Lord is on you and his glory is on your head.
+~x3y22
+And when he had said this, Jeremiah sent him away; and Abimelech went
+as he told him.
+~x4y1
+@@And when morning came, behold the host of the Chaldeans surrounded
+the city.
+~x4y2
+And the great angel trumpeted, saying:
+@Enter the city, host of the Chaldeans;
+@for behold, the gate is opened for you.
+~x4y3
+@Therefore let the king enter, with his multitudes, and let him take
+@all the people captive.
+~x4y4
+But taking the keys of the temple, Jeremiah went outside the city and
+threw them away in the presence of the sun, saying:
+@I say to you, Sun,
+@take the keys of the temple of God and guard them until the day
+@in which the Lord asks you for them.
+~x4y5
+@For we have not been found worthy to keep them, for we have become
+@unfaithful guardians.
+~x4y6
+While Jeremiah was still weeping for the people, they brought him out
+with the people and dragged them into Babylon.
+~x4y7
+@@But Baruch put dust on his head and sat and wailed this lamentation,
+saying:
+@Why has Jerusalem been devastated? Because of the sins of the
+@beloved people she was delivered into the hands of enemies -- because of
+@our sins and those of the people.
+~x4y8
+@But let not the lawless ones boast and say:
+@@"We were strong enough to
+@@take the city of God by our might;"
+@but it was delivered to you because of our sins.
+~x4y9
+@And God will pity us and cause us to return to our city, but you will
+@not survive!
+~x4y10
+@Blessed are our fathers, Abraham, Isaac and Jacob, for they departed
+@from this world and did not see the destruction of this city.
+~x4y11
+When he had said this, Baruch departed from the city, weeping and
+saying:
+@Grieving because of you, Jerusalem, I went out from you.
+~x4y12
+And he remained sitting in a tomb, while the angels came to him and
+explained to him everything that the Lord revealed to him through
+them.
+~x5y1
+@@But Abimelech took the figs in the burning heat; and coming upon a
+tree, he sat under its shade to rest a bit.
+~x5y2
+And leaning his head on the basket of figs, he fell asleep and slept
+for 66 years; and he was not awakened from his slumber.
+~x5y3
+And afterward, when he awoke from his sleep, he said:
+@I slept sweetly for a little while,
+@but my head is heavy because I did not get enough sleep.
+~x5y4
+Then he uncovered the basket of figs and found them dripping milk.
+~x5y5
+And he said:
+@I would like to sleep a little longer, because my head
+@is heavy. But I am afraid that I might fall asleep and be late in
+@awakening and my father Jeremiah would think badly of me; for if he
+@were not in a hurry, he would not have sent me today at daybreak.
+~x5y6
+@So I will get up, and proceed in the burning heat; for isn't there
+@heat, isn't there toil every day?
+~x5y7
+So he got up and took the basket of figs and placed it on his
+shoulders, and he entered into Jerusalem and did not recognize
+it -- neither his own house, nor the place -- nor did he find his own
+family or any of his acquaintances.
+~x5y8
+And he said:
+@The Lord be blessed, for a great trance has come over me today!
+~x5y9
+@This is not the city Jerusalem -- and I have lost my way because I came
+@by the mountain road when I arose from my sleep; and since my head
+@was heavy because I did not get enough sleep, I lost my way.
+~x5y10
+@It will seem incredible to Jeremiah that I lost my way!
+~x5y11
+And he departed from the city; and as he searched he saw the
+landmarks of the city, and he said:
+@Indeed, this is the city; I lost my way.
+~x5y12
+And again he returned to the city and searched, and found no one of
+his own people; and he said:
+@The Lord be blessed, for a great trance
+@has come over me!
+~x5y13
+And again he departed from the city, and he stayed there grieving,
+not knowing where he should go.
+~x5y14
+@@And he put down the basket, saying:
+@I will sit here until the Lord
+@takes this trance from me.
+~x5y15
+And as he sat, he saw an old man coming from the field; and Abimelech
+said to him:
+@I say to you, old man, what city is this?
+~x5y16
+And he said to him:
+@It is Jerusalem.
+~x5y17
+And Abimelech said to him:
+@Where is Jeremiah the priest, and Baruch the secretary,
+@and all the people of this city, for I could not find them?
+~x5y18
+And the old man said to him:
+@Are you not from this city, seeing that
+@you remember Jeremiah today, because you are asking about him after
+@such a long time?
+~x5y19
+@For Jeremiah is in Babylon with the people; for they were taken
+@captive by king Nebuchadnezzar, and Jeremiah is with them to preach
+@the good news to them and to teach them the word.
+~x5y20
+As soon as Abimelech heard this from the old man, he said:
+@If you were not an old man,
+@and if it were not for the fact that it is not
+@lawful for a man to upbraid one older than himself, I would laugh at
+@you and say that you are out of your mind -- since you say that the
+@people have been taken captive into Babylon.
+~x5y21
+@Even if the heavenly torrents had descended on them, there has not
+@yet been time for them to go into Babylon!
+~x5y22
+@For how much time has passed since my father Jeremiah sent me to the
+@estate of Agrippa to bring a few figs, so that I might give them to
+@the sick among the people?
+~x5y23
+@And I went and got them, and when I came to a certain tree in the
+@burning heat, I sat to rest a little; and I leaned my head on the
+@basket and fell asleep.
+~x5y24
+@And when I awoke I uncovered the basket of figs, supposing that I was
+@late; and I found the figs dripping milk, just as I had collected
+@them.
+~x5y25
+@But you claim that the people have been taken captive into Babylon.
+~x5y26
+@But that you might know, take the figs and see!
+~x5y27
+And he uncovered the basket of figs for the old man, and he saw them
+dripping milk.
+~x5y28
+And when the old man saw them, he said:
+@O my son, you are a righteous man,
+@and God did not want you to see the desolation of the city, so
+@he brought this trance upon you.
+~x5y29
+@For behold it is 66 years today since the people were taken captive
+@into Babylon.
+~x5y30
+@But that you might learn, my son, that what I tell you is true --
+@look into the field and see that the ripening of the crops has not
+@appeared.
+~x5y31
+@And notice that the figs are not in season, and be enlightened.
+~x5y32
+Then Abimelech cried out in a loud voice, saying:
+@I bless you, God of heaven and earth,
+@the Rest of the souls of the righteous in every place!
+~x5y33
+Then he said to the old man:
+@What month is this?
+~x5y34
+And he said:
+@Nisan (which is Abib).
+~x5y35
+And taking some of figs, he gave them to the old man and said to him:
+@May God illumine your way to the city above, Jerusalem.
+@6
+~x6y1
+@@After this, Abimelech went out of the city and prayed to the Lord.
+~x6y2
+And behold, an angel of the Lord came and took him by the right hand
+and brought him back to where Baruch was sitting, and he found him in
+a tomb.
+~x6y3
+And when they saw each other, they both wept and kissed each other.
+~x6y4
+But when Baruch looked up he saw with his own eyes the figs that were
+covered in Abimelech's basket.
+~x6y5
+And lifting his eyes to heaven, he prayed, saying:
+~x6y6
+@You are the God who gives a reward to those who love you. Prepare
+@yourself, my heart, and rejoice and be glad while you are in your
+@tabernacle, saying to your fleshly house, "your grief has been
+@changed to joy;" for the Sufficient One is coming and will deliver
+@you in your tabernacle -- for there is no sin in you.
+~x6y7
+@Revive in your tabernacle, in your virginal faith, and believe that
+@you will live!
+~x6y8
+@Look at this basket of figs -- for behold, they are 66 years old and
+@have not become shrivelled or rotten, but they are dripping milk.
+~x6y9
+@So it will be with you, my flesh, if you do what is commanded you by
+@the angel of righteousness.
+~x6y10
+@He who preserved the basket of figs, the same will again preserve you
+@by his power.
+~x6y11
+@@When Baruch had said this, he said to Abimelech:
+@Stand up and let us pray
+@that the Lord may make known to us how we shall be able to send
+@to Jeremiah in Babylon the report about the shelter provided for you
+@on the way.
+~x6y12
+And Baruch prayed, saying:
+@Lord God, our strength is the elect light
+@which comes forth from your mouth.
+~x6y13
+@We beseech and beg of your goodness -- you whose great name no one is
+@able to know -- hear the voice of your servants and let knowledge come
+@into our hearts.
+~x6y14
+@What shall we do, and how shall we send this report to Jeremiah in
+@Babylon?
+~x6y15
+And while Baruch was still praying, behold an angel of the Lord came
+and said all these words to Baruch:
+@Agent of the light, do not be
+@anxious about how you will send to Jeremiah; for an eagle is coming
+@to you at the hour of light tomorrow, and you will direct him to
+@Jeremiah.
+~x6y16
+@Therefore, write in a letter:
+@@Say to the children of Israel: Let the
+@@stranger who comes among you be set apart and let 15 days go by;
+@@and after this I will lead you into your city, says the Lord.
+~x6y17
+@@He who is not separated from Babylon will not enter into the city;
+@@and I will punish them by keeping them from being received back by
+@@the Babylonians, says the Lord.
+~x6y18
+And when the angel had said this, he departed from Baruch.
+~x6y19
+And Baruch sent to the market of the gentiles and got papyrus and ink
+and wrote a letter as follows:
+@Baruch, the servant of God, writes to
+@Jeremiah in the captivity of Babylon:
+~x6y20
+@Greetings! Rejoice, for God has not allowed us to depart from this
+@body grieving for the city which was laid waste and outraged.
+~x6y21
+@Wherefore the Lord has had compassion on our tears, and has
+@remembered the covenant which he established with our fathers
+@Abraham, Isaac and Jacob.
+~x6y22
+@And he sent his angel to me, and he told me these words which I send
+@to you.
+~x6y13
+@These, then, are the words which the Lord, the God of Israel, spoke,
+@who led us out of Egypt, out of the great furnace:
+@@Because you did
+@@not keep my ordinances, but your heart was lifted up, and you were
+@@haughty before me, in anger and wrath I delivered you to the furnace
+@@in Babylon.
+~x6y24
+@@If, therefore, says the Lord, you listen to my voice, from the mouth
+@@of Jeremiah my servant, I will bring the one who listens up from
+@@Babylon; but the one who does not listen will become a stranger to
+@@Jerusalem and to Babylon.
+~x6y25
+@@And you will test them by means of the water of the Jordan; whoever
+@@does not listen will be exposed -- this is the sign of the great seal.
+~x7y1
+@@And Baruch got up and departed from the tomb and found the eagle
+sitting outside the tomb.
+~x7y2
+And the eagle said to him in a human voice:
+@Hail, Baruch, steward of the faith.
+~x7y3
+And Baruch said to him:
+@You who speak are chosen from among all the
+@birds of heaven, for this is clear from the gleam of your eyes; tell
+@me, then, what are you doing here?
+~x7y4
+And the eagle said to him:
+@I was sent here so that you might through
+@me send whatever message you want.
+~x7y5
+And Baruch said to him:
+@Can you carry this message to Jeremiah in Babylon?
+~x7y6
+And the eagle said to him:
+@Indeed, it was for this reason I was sent.
+~x7y7
+And Baruch took the letter, and 15 figs from Abimelech's basket, and
+tied them to the eagle's neck and said to him:
+@I say to you, king of
+@the birds, go in peace with good health and carry the message for me.
+~x7y8
+@Do not be like the raven which Noah sent out and which never came
+@back to him in the ark; but be like the dove which, the third time,
+@brought a report to the righteous one.
+~x7y9
+@So you also, take this good message to Jeremiah and to those in
+@bondage with him, that it may be well with you-take this papyrus to
+@the people and to the chosen one of God.
+~x7y10
+@Even if all the birds of heaven surround you and want to fight with
+@you, struggle -- the Lord will give you strength.
+~x7y11
+@And do not turn aside to the right or to the left, but straight as a
+@speeding arrow, go in the power of God, and the glory of the Lord
+@will be with you the entire way.
+~x7y12
+Then the eagle took flight and went away to Babylon, having the
+letter tied to his neck; and when he arrived he rested on a post
+outside the city in a desert place.
+~x7y13
+And he kept silent until Jeremiah came along, for he and some of the
+people were coming out to bury a corpse outside the city.
+~x7y14
+(For Jeremiah had petitioned king Nebuchadnezzar, saying: "Give me a
+place where I may bury those of my people who have died;" and the
+king gave it to him.)
+~x7y15
+@@And as they were coming out with the body, and weeping, they came to
+where the eagle was.
+~x7y16
+And the eagle cried out in a loud voice, saying:
+@I say to you,
+@Jeremiah the chosen one of God, go and gather together the people and
+@come here so that they may hear a letter which I have brought to you
+@from Baruch and Abimelech.
+~x7y17
+And when Jeremiah heard this, he glorified God; and he went and
+gathered together the people along with their wives and children, and
+he came to where the eagle was.
+~x7y18
+And the eagle came down on the corpse, and it revived.
+~x7y19
+(Now this took place so that they might believe.)
+~x7y20
+And all the people were astounded at what had happened, and said:
+@This is the God who appeared to our fathers in the wilderness through
+@Moses, and now he has appeared to us through the eagle.
+~x7y21
+And the eagle said:
+@I say to you, Jeremiah, come, untie this letter
+@and read it to the people --
+So he untied the letter and read it to the people.
+~x7y22
+And when the people heard it, they wept and put dust on their heads,
+and they said to Jeremiah:
+@Deliver us and tell us what to do that we
+@may once again enter our city.
+~x7y23
+And Jeremiah answered and said to them:
+@Do whatever you heard from
+@the letter, and the Lord will lead us into our city.
+~x7y24
+And Jeremiah wrote a letter to Baruch, saying thus:
+@My beloved son,
+@do not be negligent in your prayers, beseeching God on our behalf,
+@that he might direct our way until we come out of the jurisdiction of
+@this lawless king.
+~x7y25
+@For you have been found righteous before God, and he did not let you
+@come here, lest you see the affliction which has come upon the people
+@at the hands of the Babylonians.
+~x7y26
+@For it is like a father with an only son, who is given over for
+@punishment; and those who see his father and console him cover his
+@face, lest he see how his son is being punished, and be even more
+@ravaged by grief.
+~x7y27
+@For thus God took pity on you and did not let you enter Babylon lest
+@you see the affliction of the people.
+~x7y28
+@For since we came here, grief has not left us, for 66 years today.
+~x7y29
+@For many times when I went out I found some of the people hung up by
+@king Nebuchadnezzar, crying and saying:
+@@"Have mercy on us, God-ZAR!"
+~x7y30
+@When I heard this, I grieved and cried with two-fold mourning, not
+@only because they were hung up, but because they were calling on a
+@foreign God, saying "Have mercy on us."
+~x7y31
+@But I remembered days of festivity which we celebrated in Jerusalem
+@before our captivity; and when I remembered, I groaned, and returned
+@to my house wailing and weeping.
+~x7y32
+@Now, then, pray in the place where you are -- you and Abimelech -- for
+@this people, that they may listen to my voice and to the decrees of
+@my mouth, so that we may depart from here.
+~x7y33
+@For I tell you that the entire time that we have spent here they have
+@kept us in subjection, saying:
+@@Recite for us a song from the songs of
+@@Zion [see Ps 136.3c/4] -- the song of your God.
+~x7y34
+@And we reply to them:
+@@How shall we sing for you
+@@since we are in a foreign land? [Ps 136.4]
+~x7y35
+And after this, Jeremiah tied the letter to the eagle's neck, saying:
+@Go in peace, and may the Lord watch over both of us.
+~x7y36
+And the eagle took flight and came to Jerusalem and gave the letter
+to Baruch; and when he had untied it he read it and kissed it and
+wept when he heard about the distresses and afflictions of the people.
+~x7y37
+But Jeremiah took the figs and distributed them to the sick among the
+people, and he kept teaching them to abstain from the pollutions of
+the gentiles of Babylon.
+@6
+~x8y1
+@@And the day came in which the Lord brought the people out of Babylon.
+~x8y2
+And the Lord said to Jeremiah:
+@Rise up -- you and the people -- and come
+@to the Jordan and say to the people:
+@@Let anyone who desires the Lord
+@@forsake the works of Babylon.
+~x8y3
+@As for the men who took wives from them and the women who took
+@husbands from them -- those who listen to you shall cross over, and you
+@take them into Jerusalem; but those who do not listen to you, do not
+@lead them there.
+~x8y4
+And Jeremiah spoke these words to the people, and they arose and came
+to the Jordan to cross over.
+~x8y5
+As he told them the words that the Lord had spoken to him, half of
+those who had taken spouses from them did not wish to listen to
+Jeremiah, but said to him:
+@We will never forsake our wives,
+@but we will bring them back with us into our city.
+~x8y6
+So they crossed the Jordan and came to Jerusalem.
+~x8y7
+And Jeremiah and Baruch and Abimelech stood up and said:
+@No man joined with Babylonians shall enter this city!
+~x8y8
+And they said to one another:
+@Let us arise and return to Babylon to our place --
+And they departed.
+~x8y9
+But while they were coming to Babylon, the Babylonians came out to
+meet them, saying:
+@You shall not enter our city, for you hated us and
+@you left us secretly; therefore you cannot come in with us.
+~x8y10
+@For we have taken a solemn oath together in the name of our god to
+@receive neither you nor your children, since you left us secretly.
+~x8y11
+And when they heard this, they returned and came to a desert place
+some distance from Jerusalem and built a city for themselves and
+named it 'SAMARIA.'
+~x8y12
+And Jeremiah sent to them, saying:
+@Repent, for the angel of
+@righteousness is coming and will lead you to your exalted place.
+@6
+~x9y1
+@@Now those who were with Jeremiah were rejoicing and offering
+sacrifices on behalf of the people for nine days.
+~x9y2
+But on the tenth, Jeremiah alone offered sacrifice.
+~x9y3
+And he prayed a prayer, saying:
+@Holy, holy, holy, fragrant aroma of the living trees,
+@@true light that enlightens me until I ascend to you;
+~x9y4
+@For your mercy, I beg you --
+@@for the sweet voice of the two seraphim, I beg --
+@@@for another fragrant aroma.
+~x9y5
+@And may Michael, archangel of righteousness, who opens the gates to
+@the righteous, be my guardian (?) until he causes the righteous to
+@enter.
+~x9y6
+@I beg you, almighty Lord of all creation, unbegotten and
+@incomprehensible, in whom all judgment was hidden before these things
+@came into existence.
+~x9y7
+When Jeremiah had said this, and while he was standing in the
+altar-area with Baruch and Abimelech, he became as one whose soul had
+departed.
+~x9y8
+And Baruch and Abimelech were weeping and crying out in a loud voice:
+@Woe to us! For our father Jeremiah has left us -- the priest of God has
+@departed!
+~x9y9
+@@And all the people heard their weeping and they all ran to them and
+saw Jeremiah lying on the ground as if dead.
+~x9y10
+And they tore their garments and put dust on their heads and wept
+bitterly.
+~x9y11
+And after this they prepared to bury him.
+~x9y12
+And behold, there came a voice saying:
+@Do not bury the one who yet lives,
+@for his soul is returning to his body!
+~x9y13
+And when they heard the voice they did not bury him, but stayed
+around his tabernacle for three days saying, "when will he arise?"
+~x9y14
+@@And after three days his soul came back into his body and he raised
+his voice in the midst of them all and said:
+@Glorify God with one voice!
+@All of you glorify God and the son of God who awakens us --
+@messiah Jesus -- the light of all the ages, the inextinguishable
+@lamp, the life of faith.
+~x9y15
+But after these times there shall be 477 years more and he comes to
+earth.
+~x9y16
+@And the tree of life planted in the midst of paradise
+@@will cause all the unfruitful trees to bear fruit,
+@@@and will grow and sprout forth.
+~x9y17
+@And the trees that had sprouted and became haughty and said:
+@@"We have supplied our power (?) to the air,"
+@he will cause them to wither, with the grandeur of their branches,
+@and he will cause them to be judged -- that firmly rooted tree!
+~x9y18
+@And what is crimson will become white as wool --
+@@@the snow will be blackened --
+@@the sweet waters will become salty, and the salty sweet,
+@@@in the intense light of the joy of God.
+~x9y19
+@And he will bless the isles
+@@so that they become fruitful by the word of the mouth of his messiah.
+~x9y20
+@For he shall come,
+@@and he will go out and choose for himself twelve apostles
+@@@@to proclaim the news among the nations--
+@@@he whom I have seen adorned by his father
+@@@@and coming into the world on the Mount of Olives --
+@@and he shall fill the hungry souls.
+~x9y21
+@@When Jeremiah was saying this concerning the son of God -- that he is
+coming into the world -- the people became very angry and said:
+@This is a repetition of the words spoken by Isaiah son of Amos,
+@when he said:
+@@I saw God and the son of God.
+~x9y22
+@Come, then, and let us not kill him by the same sort of death with
+@which we killed Isaiah, but let us stone him with stones.
+~x9y23
+@@And Baruch and Abimelech were greatly grieved because they wanted to
+hear in full the mysteries that he had seen.
+~x9y24
+But Jeremiah said to them:
+@Be silent and weep not, for they cannot kill me
+@until I describe for you everything I saw.
+~x9y25
+And he said to them:
+@Bring a stone here to me.
+~x9y26
+And he set it up and said:
+@Light of the ages,
+@@make this stone to become like me in appearance,
+@@@until I have described to Baruch and Abimelech everything I saw.
+~x9y27
+Then the stone, by God's command, took on the appearance of Jeremiah.
+~x9y28
+And they were stoning the stone, supposing that it was Jeremiah!
+~x9y29
+@@But Jeremiah delivered to Baruch and to Abimelech all the mysteries
+he had seen, and forthwith he stood in the midst of the people
+desiring to complete his ministry.
+~x9y30
+Then the stone cried out, saying:
+@O foolish children of Israel,
+@@why do you stone me, supposing that I am Jeremiah?
+@Behold, Jeremiah is standing in your midst!
+~x9y31
+And when they saw him, immediately they rushed upon him with many
+stones, and his ministry was fulfilled.
+~x9y32
+@@And when Baruch and Abimelech came, they buried him, and taking the
+stone they placed it on his tomb and inscribed it thus:
+@This is the stone that was the ally of Jeremiah.
+
+//end of Longer Version//
+
+~a"OTApoc"b"002"c"ParJerS"x"t"
+THAT WHICH THE LORD SPOKE TO JEREMIAH BEFORE THE CAPTURE OF
+JERUSALEM AND HOW THE CAPTURE HAPPENED
+~x1y1
+@@In those days the Lord spoke to Jeremiah, saying: Arise,
+depart from this city with Baruch, since I am going to destroy
+it because of the multitude of the sins of those who dwell in it.
+~x1y2
+For your prayers are like solid pillars in its midst, and like an
+indestructible wall surrounding it.
+~x1y3
+Now, then, depart from it before the host of the Chaldeans
+surrounds it.
+~x1y4
+And Jeremiah spoke, saying: I beseech you, Lord, permit me,
+your servant, to speak in your presence.
+~x1y5
+And the Lord said: Speak.
+~x1y6
+And Jeremiah said: Lord, would you deliver this city into
+the hands of the Chaldeans, so that they might boast that they
+had prevailed against it?
+~x1y7
+My Lord, if it is your will, rather let it be destroyed by
+your hands and not by the Chaldeans.
+~x1y8
+And God said: You, arise, depart.
+~x1y9
+But they will not boast. Unless I open (the gates), they are
+not able to enter.
+~x1y10
+Therefore go to Baruch and tell him.
+~x1y11
+And at the sixth hour of the night go up on the city walls
+and see that unless I open (the gates), they are not able to
+enter.
+~x1y12
+And when he had said these things he departed from him.
+~x2y1
+@@And Jeremiah departed and told Baruch; and as they went into
+the temple they tore their garments and mourned much.
+~x3y1
+@@And at the sixth hour when they had gone up on the city
+walls, they heard the sound of trumpets.
+~x3y2
+And the angels came from heaven, holding torches in their
+hands, and they set them on the walls of the city.
+~x3y3
+And when they saw them they wept and said: Now we know that
+the word that God spoke is true.
+~x3y4
+And they besought the angels, saying: We beseech (you) not
+to destroy the city until we speak to God.
+~x3y6
+Then Jeremiah spoke, saying: I beg you, Lord, bid me to
+speak in your presence.
+~x3y7
+And the Lord said: Speak.
+~x3y8
+And Jeremiah said: Behold, Lord, we know that you are
+delivering the city into the hands of its enemies, and your
+people depart for Babylon.
+~x3y9
+What then will we do with your holy vessels?
+~x3y10
+And God said: Consign them to the earth, saying: Hear,
+earth, the voice of your creator, who founded you upon the
+waters, who sealed you with seven seals for seven epochs, and
+after this you will receive your ornaments.
+~x3y11
+Guard the vessels of the temple service until the gathering
+of the beloved.
+~x3y12
+And Jeremiah spoke again, saying: I beseech you, Lord, what
+should I do for Abimelech the Ethiopian, for he has done many
+kindnesses to your servant?
+~x3y13
+For he drew me up out of the miry pit where they threw me,
+and I do not wish that he should see the destruction and
+spoiling of the city because he is little-souled.
+~x3y14
+And the Lord said to Jeremiah: Send him to the vineyard of
+Agrippa, and I will hide him in the shadow of the mountain until
+the people are about to return from the captivity.
+~x3y15
+And you, Jeremiah, go with your people into Babylon and
+stay with them, preaching to them, until I cause them to return.
+~x3y16
+But leave Baruch here.
+~x3y18
+Then they went into the temple, and taking the vessels of
+the temple service, they consigned them to the earth as the Lord
+had told them.
+~x3y21
+And at morning, Jeremiah said to Abimelech: Take a basket,
+child, and go to the estate of Agrippa by the mountain road, and
+bring back figs to the sick of the people; for their favor is on
+you, and glory is on your head.
+~x3y22
+And immediately he went to the field.
+~x4y1
+@@And when he had departed and the sun had appeared at dawn,
+behold, the host of the Chaldeans, having arrived, had
+surrounded the city of Jerusalem.
+~x4y2
+And the great angel trumpeted, saying: Enter the city, the
+entire host of the Chaldeans; for behold, the gates are opened
+for you.
+~x4y4
+Then Jeremiah, taking the keys of the temple, went outside
+the city and throwing them away in the presence of the sun,
+said: Take them and guard (them) until the day in which the Lord
+asks you for them.
+~x4y5
+For we have not been found worthy to keep them.
+~x4y6
+And Jeremiah went with the people into captivity in Babylon.
+~x4y11"-12"
+But Baruch departed from the city and remained sitting
+in a tomb.
+~x5y1
+@@And Abimelech, taking the figs in the burning heat and
+coming upon a tree, sat under its shade to rest a bit.
+~x5y2
+And leaning his head on the basket, he fell asleep for
+seventy times. And this happened according to the commandment of
+God because of the word which he spoke to Jeremiah: I will hide
+him.
+~x5y3
+And after awakening he said: I slept sweetly for a little
+while, and because of this my head is heavy because I did not
+get enough sleep.
+~x5y4
+And uncovering the figs, he found them dripping milk, as if
+he had gathered them shortly before.
+~x5y5
+And he said: I would like to sleep a little longer, but
+since Jeremiah sent me in much haste, if I do this I will be
+late and he will be distressed.
+~x5y6
+For isn't there toil and heat every day? Rather, I should
+leave quickly, and I will heal him and then I can sleep.
+~x5y7
+And taking the figs, he went into Jerusalem and he did not
+recognize either his house or that of his relatives or of his
+friends.
+~x5y8
+And he said: The Lord be blessed, a trance came over me
+today!
+~x5y9
+This is not the city. Lacking sleep, I have gone astray.
+~x5y"11"z"1"
+And he departed from (the city) and searching for the
+landmarks he said: Indeed, this is the city; I went astray.
+~x5y12
+And entering again and searching, he found no one of his
+relatives or of his friends; and he said: The Lord be blessed, a
+great trance has come over me!
+~x5y13
+@@And going out, he stayed there grieving, not knowing what
+he should do.
+~x5y14
+And putting down the basket, he said: I must sit here until
+the Lord takes the trance from me.
+~x5y15
+And as he was sitting, behold, an old man was coming from
+the field, and he said to him: I say to you, old man, what city
+is this?
+~x5y16
+And he said: It is Jerusalem, child.
+~x5y17
+And Abimelech said: And where is Jeremiah the priest of
+God, and Baruch the secretary, and all the people of the city,
+for I could not find them?
+~x5y18
+And the old man said to him: Are you not from this city?
+Today you remembered Jeremiah and asked about him.
+~x5y19
+Jeremiah has been in Babylon with the people since they
+were made captives by Nebuchadnezzar the king seventy times ago;
+and how is it that you, being a young man and never having been
+(old), then, are asking about the things which I have never
+seen?
+~x5y20
+And when he had heard these things, Abimelech said to him:
+If you were not an old man, and if it were not for the fact that
+it is not lawful for a man of God to upbraid one older than
+himself, I would laugh at you and say that you are out of your
+mind for saying that the people went captive into Babylon.
+~x5y21
+Even if the heavenly torrents had opened, and the angels of
+God came to take them with power and authority, not yet would
+they have (time) to go into Babylon!
+~x5y22
+For how much time has passed since my father Jeremiah sent
+me to the estate of Agrippa because of a few (figs), so that I
+might give them to the sick of the people?
+~x5y23
+And coming to a tree from out of the heat, I fell asleep
+for a little bit.
+~x5y24
+Supposing that I was late, I uncovered the figs and found
+them dripping milk just as I had collected (them).
+~x5y25
+And you say that the people were taken captive into
+Babylon.
+~x5y26
+But that you might know, and not account me a liar, take
+the figs and see.
+~x5y28
+And when the old man saw these things he said: O child, you
+are the son of a righteous man, and God did not want to show you
+the desolation of this city and he brought this trance upon you.
+~x5y29
+Behold, it is seventy times (since) the people were taken
+captive into Babylon with Jeremiah from this day.
+~x5y30
+But so that you may learn, my child, that what I tell you
+is true, look into the field and see that the ripening of the
+crops has not yet appeared.
+~x5y31
+And notice that the figs are not in season, and be
+enlightened and be persuaded that I am telling the truth.
+~x5y32
+Then Abimelech, just as from great sobriety and observing
+the land accurately, and the trees in it, said: Blessed be the
+God of heaven and earth, the Rest of the souls of the righteous.
+~x5y33
+And he said to the old man: What month is this?
+~x5y34
+And the old man said: The twelfth.
+~x5y35
+And giving some figs to the old man, he departed when he
+had blessed him.
+~x6y1
+@@And rising up, Abimelech prayed that it might be revealed to
+him what he should do.
+~x6y2
+And behold, an angel of the Lord came and took him by the
+right hand and brought him safely to the tomb in which Baruch
+was sitting.
+~x6y3
+And seeing one another, they wept much, and then they prayed
+to God and rejoiced, glorifying and praising him.
+~x6y4
+And Baruch, seeing the figs which were picked seventy times
+before still dripping milk, was astonished, and said:
+~x6y11
+Let us pray to God that the Lord may make known to us how,
+then, we will give knowledge to Jeremiah concerning the shelter
+made for you, and now (your) incredible awakening.
+~x6y15
+And while they were doing this, they heard an angel which
+was sent to them:
+~x6y16
+Write a letter to Jeremiah (saying) what he must do unto
+the people as I say to you. And he told them everything that
+they should write, and he also delivered over this: Behold, in a
+few days God will lead you out of Babylon into Jerusalem. And
+early tomorrow when an eagle comes, bind the letter and a few
+figs on its neck so that it may carry these things to Jeremiah
+in Babylon.
+~x6y18
+And when he had said these things he departed from them.
+~x6y19
+@@And immediately taking papyrus Baruch sat down and wrote
+the things which he heard from the angel.
+~x7y1
+And coming early, the eagle cried out. And going out, they
+praised God.
+~x7y7
+And when they had prayed they bound the letter and ten figs
+on its neck.
+~x7y8
+And when they had prayed for it they sent it away, having
+commanded it to return to them again.
+~x7y12
+And it went away to Babylon (and having arrived) it sat on
+a pillar outside the city.
+~x7y13
+And according to the stewardship of God, Jeremiah was going
+out of the city with all the people to bury a corpse.
+~x7y14"-15"
+And they were mourning and were about to bury it in the
+place which Jeremiah received from Nebuchadnezzar which he
+yielded for the burying of dead Jews.
+~x7y16
+And the eagle cried out with the voice of a man and said: I
+say to you Jeremiah, take the letter which I have brought to you
+from Baruch and Abimelech and let all the people of Jerusalem
+hear it.
+~x7y17
+And when Jeremiah heard, he glorified God.
+~x7y18
+And the eagle sat on the corpse and immediately it arose.
+~x7y20
+Everyone seeing this knew that the letter was sent from
+God. And when all had glorified God at what had happened,
+~x7y21
+Jeremiah untied the letter and read it before all.
+~x7y22
+And when they heard it they shouted out and rejoiced
+greatly.
+~x7y24
+And Jeremiah also wrote on papyrus of all the tribulations
+and misfortunes that had happened to them.
+~x7y35
+And he tied it to the neck of the eagle and blessing it, he
+sent it off.
+~x7y36
+And again it took this letter to Baruch and Abimelech, and
+when they had read it they wept and with thanks they glorified
+God because they had not been tested with such tribulations.
+~x7y37
+But Jeremiah gave the figs to the sick of the people, and
+they were all healed, as many as ate of them.
+~x8y1
+@@And when the appointed day had been attained,
+~x8y2
+God said to Jeremiah: Take the entire night and go out of
+Babylon and come to the Jordan.
+~x8y3
+And there you will separate the rulers of the Babylonians
+who took wives from your nation and the women of the Babylonians
+who joined together with your people. And those who do not hear
+you the Jordan will separate. They will not cross with you.
+~x8y4
+And Jeremiah did as God commanded him.
+~x8y5
+And in separating them at the Jordan, most of those who had
+joined (with the Babylonians) did not wish to listen to
+Jeremiah, but said: It is better for us to return to Babylon
+than to forsake our wives.
+~x8y8
+And they departed for Babylon.
+~x8y9
+But they were not welcomed by the Babylonians who said:
+Because you left us and departed secretly,
+~x8y10
+We have sworn an oath among ourselves not to receive you or
+your children.
+~x8y11
+But these who were not received, either by Jeremiah or by
+the Babylonians departed into a desert place some distance from
+Jerusalem and built for themselves a city which is called
+Samaria, which is what they named it.
+~x9y1
+@@And Jeremiah with the people went into Jerusalem and they
+rejoiced, bringing up their sacrifices for nine days.
+~x9y2
+And on the tenth day Jeremiah offered his sacrifice to God.
+~x9y3
+And he prayed
+~x9y7
+until his soul went up and his body fell down dead in the
+altar-area.
+~x9y8
+Then Baruch and Abimelech came to mourn Jeremiah.
+~x9y9
+And when all the people heard they ran to them and saw
+Jeremiah lying on the ground dead.
+~x9y10
+And they tore their garments and put dust on their heads
+and they all wept bitterly.
+~x9y11
+And after this they prepared to bury him.
+~x9y12
+And behold, there was a voice from heaven saying: Do not
+bury the one who yet lives.
+~x9y13
+And when they heard the voice they stayed beside him,
+praying for three days.
+~x9y14
+@@And after three days his soul came back into his body and
+he raised his voice in the midst of them all, saying: With one
+voice all of you glorify God and his son who awakens us, messiah
+Jesus, the light of all the ages, the inextinguishable lamp, the
+life of our nature.
+~x9y15
+For after these times there shall be 377 years more.
+~x9y21
+And as he preached the good news of the messiah to them as
+he saw and heard enigmatically when his soul went up, all the
+people shouted: These are the words which Isaiah of old spoke to
+our fathers: I saw God and his son.
+~x9y22
+And they killed him with a wooden saw, sawing him asunder.
+Come then, let us stone him.
+~x9y23
+@@And when they heard these things, Baruch and Abimelech were
+greatly grieved because of the death of Jeremiah and had not
+heard in full the mysteries which the prophet who had gone up
+had seen and heard.
+~x9y24
+And he, knowing their thoughts, said: Be silent; they will
+not kill me until everything which I saw and heard I describe
+for you.
+~x9y25
+And he said to them: Bring a great stone to me. And they
+brought it to him.
+~x9y26
+And the prophet said: Lord, make this stone like me in
+appearance so that the people will stone it until I tell my
+brothers the things which I saw and heard.
+~x9y27
+Then, by the commandment of God, the stone took on the
+appearance of the prophet,
+~x9y28
+And they stoned it instead of him.
+~x9y29
+And he told them everything that he saw and heard. Desiring
+to complete his ministry, he went into the midst of the people.
+~x9y30
+And by the command of God the stone went up and cried out
+in the voice of a man, saying: O foolish children of Israel, why
+do you stone me, supposing that I am Jeremiah, who is standing
+in your midst?
+~x9y31
+Then, out of great sobriety, they saw the holy one, and
+taking up stones they killed him. And he was stoned by his
+fellow captives of Jerusalem who owed him much good, and he did
+not speak against them neither was he angry, but thus he
+received the overpowering of the stones, as through them he went
+up into heaven.
+~x9y32
+And when Baruch and Abimelech came, they buried him, and
+taking the stone they placed it on his tomb, inscribing on it:
+This is the stone that was the ally of Jeremiah.
+~x9y33
+And the sacred vessels Jeremiah laid away according to the
+command of God, sealed in this stone by his finger in the name
+of God. Through the writing of iron, the imprint has become on
+the stone a shadowy cloud, because it is indistinguishable. And
+the stone is in the desert where formerly the ark was prepared
+with the others. And this Jeremiah spoke: The Lord went up to
+heaven from Zion, but he will come again to visit Zion, and the
+coming of the messiah will be the sign whenever every nation
+worships the cross, glorifying and praising God, to whom becomes
+all glory forever and ever, Amen.
+
+
+//end of Short Version//
