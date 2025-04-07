@@ -1,4 +1,4 @@
-#CCAT clone repository
+# CCAT clone repository
 This repository is a clone of the repository of the **[Center for Computer
 Analysis of Texts (CCAT)](https://ccat.sas.upenn.edu/gopher/text/religion/biblical/)** at the University of Pennsylvania.
 
