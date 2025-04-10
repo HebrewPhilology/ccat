@@ -43,8 +43,7 @@ class BetacodeTranformer:
                 line = line.strip()
                 if re.search(
                     r"[1-9A-Z].+\d+:\d+", line
-                ):  # Il faudra récupérer qq par le book_name
-                    #print(line)
+                ):  
                     book, chap_num, verse_num = re.split(r"[\s:]", line)
                     content.setdefault(book, {}).setdefault(chap_num, {}).setdefault(
                         verse_num, {}
@@ -57,10 +56,13 @@ class BetacodeTranformer:
                     hb = hb.replace("/", "")
                     gr = beta_to_greek(gr)
                     content[book][chap_num][verse_num][word] = {"hb": hb, "gr": gr}
+                    word+=1
         return content
 
-    def dump(self, filename: str):
+    def dump(self, filename: Path):
         """Convert the Betacode and dump it to a JSON file."""
+        # Add JSON extension to file
+        filename = filename.with_suffix(".json")
 
         # Create the output folder
         os.makedirs(os.path.dirname(filename), exist_ok=True)
