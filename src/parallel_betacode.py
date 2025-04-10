@@ -1,3 +1,7 @@
+# This script converts the files in the ccat parallel folder to json and unicode.
+# Frédérique Michèle Rey 2025
+# v. 1.0
+
 import os
 import re
 import pprint
@@ -8,6 +12,7 @@ from betacode_parser import *
 INPUT_FOLDER = os.path.abspath("../ccat/parallel")
 OUTPUT_FOLDER = os.path.abspath("../ccat/parallel_unicode")
 EXTENSION = "par"
+
 EXTENSION = "*." + EXTENSION
 
 
@@ -27,53 +32,54 @@ class BetacodeTranformer:
     def convert(self) -> dict:
         """
         Convert the content of the betacode file and return a dictionnary
-
-
         Returns:
             dict: The content of the converted file
         """
-        book = ''
-        chap_num = ''
-        verse_num = ''
+        book = ""
+        chap_num = ""
+        verse_num = ""
 
         content = {}
         with open(self.file) as file:
             word = 1
             for line in file:
                 line = line.strip()
-                if re.search(
-                    r"[1-9A-Z].+\d+:\d+", line
-                ):  
+                if re.search(r"[1-9A-Z].+\d+:\d+", line):
                     book, chap_num, verse_num = re.split(r"[\s:]", line)
                     content.setdefault(book, {}).setdefault(chap_num, {}).setdefault(
                         verse_num, {}
                     )
                     word = 1
                 elif line:
-                    #print(f"{chap_num}:{verse_num}:{word}:'{line}'")
+                    # print(f"{chap_num}:{verse_num}:{word}:'{line}'")
                     hb, gr = re.split(r"\t", line)
                     hb = beta_to_hebrew(hb, True)
                     hb = hb.replace("/", "")
                     gr = beta_to_greek(gr)
                     content[book][chap_num][verse_num][word] = {"hb": hb, "gr": gr}
-                    word+=1
+                    word += 1
         return content
 
-    def dump(self, filename: Path):
-        """Convert the Betacode and dump it to a JSON file."""
+    def dump(self, file: Path) -> None:
+        """
+        Convert the Betacode and dump it to a JSON file.
+        Args:
+            filename (Path): Path of the file that is converted
+        """
+
         # Add JSON extension to file
-        filename = filename.with_suffix(".json")
+        file = file.with_suffix(".json")
 
         # Create the output folder
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        os.makedirs(os.path.dirname(file), exist_ok=True)
 
         # Execute the conversion and write the file
-        with open(filename, "w") as f:
+        with open(file, "w") as f:
             json.dump(self.convert(), f, ensure_ascii=False, indent=4)
 
 
 if __name__ == "__main__":
     for file in Path(INPUT_FOLDER).glob(EXTENSION):
-        print(f'Converting file : {file.name}')
+        print(f"Converting file : {file.name}")
         BetacodeTranformer(file).dump(Path(OUTPUT_FOLDER) / file.name)
 print("Done... 🥳")
