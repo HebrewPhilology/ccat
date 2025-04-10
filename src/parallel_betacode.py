@@ -5,8 +5,8 @@ import json
 from pathlib import Path
 from betacode_parser import *
 
-INPUT_FOLDER = os.path.abspath("../ccat/test")
-OUTPUT_FOLDER = os.path.abspath("../ccat/test_unicode")
+INPUT_FOLDER = os.path.abspath("../ccat/parallel")
+OUTPUT_FOLDER = os.path.abspath("../ccat/parallel_unicode")
 EXTENSION = "par"
 EXTENSION = "*." + EXTENSION
 
@@ -32,6 +32,9 @@ class BetacodeTranformer:
         Returns:
             dict: The content of the converted file
         """
+        book = ''
+        chap_num = ''
+        verse_num = ''
 
         content = {}
         with open(self.file) as file:
@@ -39,14 +42,16 @@ class BetacodeTranformer:
             for line in file:
                 line = line.strip()
                 if re.search(
-                    r"Gen \d+:\d+", line
+                    r"[1-9A-Z].+\d+:\d+", line
                 ):  # Il faudra récupérer qq par le book_name
+                    #print(line)
                     book, chap_num, verse_num = re.split(r"[\s:]", line)
                     content.setdefault(book, {}).setdefault(chap_num, {}).setdefault(
                         verse_num, {}
                     )
                     word = 1
                 elif line:
+                    #print(f"{chap_num}:{verse_num}:{word}:'{line}'")
                     hb, gr = re.split(r"\t", line)
                     hb = beta_to_hebrew(hb, True)
                     hb = hb.replace("/", "")
@@ -67,4 +72,6 @@ class BetacodeTranformer:
 
 if __name__ == "__main__":
     for file in Path(INPUT_FOLDER).glob(EXTENSION):
+        print(f'Converting file : {file.name}')
         BetacodeTranformer(file).dump(Path(OUTPUT_FOLDER) / file.name)
+print("Done... 🥳")

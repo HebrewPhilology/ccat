@@ -1,5 +1,5 @@
 
-Sir 1
+Sir 0:1
 --+ ''	POLLW=N
 --+ ''	KAI\ MEGA/LWN
 --+ ''	H(MI=N
@@ -25,7 +25,7 @@ Sir 1
 --+ ''	E)PISTH/MONAS
 --+ ''	GI/NESQAI
 
-Sir 2
+Sir 0:2
 --+ ''	A)LLA\ KAI\
 --+ ''	TOI=S E)KTO\S
 --+ ''	DU/NASQAI
@@ -35,7 +35,7 @@ Sir 2
 --+ ''	KAI\ LE/GONTAS
 --+ ''	KAI\ GRA/FONTAS
 
-Sir 3
+Sir 0:3
 --+ ''	O( PA/PPOS MOU
 --+ ''	I)HSOU=S
 --+ ''	E)PI\
@@ -62,7 +62,7 @@ Sir 3
 --+ ''	KAI\ SOFI/AN
 --+ ''	A)NHKO/NTWN
 
-Sir 4
+Sir 0:4
 --+ ''	O(/PWS
 --+ ''	OI( FILOMAQEI=S
 --+ ''	KAI\ TOU/TWN
@@ -75,7 +75,7 @@ Sir 4
 --+ ''	TH=S E)NNO/MOU
 --+ ''	BIW/SEWS
 
-Sir 5
+Sir 0:5
 --+ ''	PARAKE/KLHSQE
 --+ ''	OU)=N
 --+ ''	MET'
@@ -93,7 +93,7 @@ Sir 5
 --+ ''	TW=N LE/CEWN
 --+ ''	A)DUNAMEI=N
 
-Sir 6
+Sir 0:6
 --+ ''	OU)
 --+ ''	GA\R
 --+ ''	I)SODUNAMEI= AU)TA\
@@ -106,7 +106,7 @@ Sir 6
 --+ ''	E(TE/RAN
 --+ ''	GLW=SSAN
 
-Sir 7
+Sir 0:7
 --+ ''	OU)
 --+ ''	MO/NON DE\
 --+ ''	TAU=TA
@@ -123,7 +123,7 @@ Sir 7
 --+ ''	E)N E(AUTOI=S
 --+ ''	LEGO/MENA
 
-Sir 8
+Sir 0:8
 --+ ''	E)N
 --+ ''	GA\R
 --+ ''	TW=| O)GDO/W|
@@ -152,7 +152,7 @@ Sir 8
 --+ ''	TH/NDE
 --+ ''	TH\N BI/BLON
 
-Sir 9
+Sir 0:9
 --+ ''	POLLH\N
 --+ ''	A)GRUPNI/AN
 --+ ''	KAI\ E)PISTH/MHN
@@ -645,7 +645,7 @@ Sir 2:18
 [..]	EI)S
 [..]	XEI=RAS
 [..]	A)NQRW/PWN
-W/K/$M/W 3 =??	W(S ^ GA\R H( MEGALWSU/NH AU)TOU=
+W/K/$M/W 3 =??	W(S GA\R H( MEGALWSU/NH AU)TOU=
 KN 3	OU(/TWS
 M(&/YW 3 =??	KAI\ TO\ E)/LEOS AU)TOU=
 
@@ -5874,7 +5874,7 @@ Sir 19:13
 [..]	PROSQH=|
 
 Sir 19:14
-	E)/LEGCON
+[..]	E)/LEGCON
 [..]	TO\N PLHSI/ON
 [..]	MH/POTE
 [..]	OU)K
@@ -16319,8 +16319,7 @@ L/$M(WN 1	I)HSOU=S
 BN 1	---
 Y$W( 1	---
 BN 1	UI(O\S
-)L(ZR ^ =SYR) 1	
-SIRAX
+)L(ZR	=SYR) 1
 BN 1	---
 ^ SYR) =)L(ZR 1	ELEAZAR
 )$R 1	O( O(\S
