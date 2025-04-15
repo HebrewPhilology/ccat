@@ -1,2 +1,0 @@
-BeautifulSoup ==  4.13.3
-betacode-parser == 1.0.0
