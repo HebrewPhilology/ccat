@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "parallel_betacode"
+version = "0.0.1"
+dependencies = [
+    "BeautifulSoup ==  4.13.3",
+    "betacode-parser == 1.0.0",
+    "pytest-cov == 8.3.5"
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "Frédérique Michèle Rey", email = "frederique.rey@univ-lorraine.fr"},
+]
+maintainers = [
+  {name = "Frédérique Michèle Rey", email = "frederique.rey@univ-lorraine.fr"},
+]
+description = "Convert the parallel alignment betwen Hebrew and Greek by E. Tov from CCAT "
+readme = "readme.md"
+licence = "MIT"
+licebce-file = "LICENCE.txt"
+keywords = ["betacode", "parallel", "bible", "hebrew", "greek"]
+
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.scripts]
+parallel_betacode = "parallel_betacode:parallel_betacode.main"

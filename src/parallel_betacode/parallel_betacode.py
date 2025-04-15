@@ -101,7 +101,7 @@ def hb_betacode(hb: str) -> str:
     result += beta_to_hebrew(remaining, True)
 
     return result
-class BetacodeTranformer:
+class BetacodeTransformer:
     """
     Class to convert text file in betacode to unicode
     """
@@ -141,7 +141,7 @@ class BetacodeTranformer:
                     hb = hb_betacode(hb)
                     hb = hb.replace("/", "")
                     gr = beta_to_greek(gr)
-                    content[book][chap_num][verse_num][word] = {"hb": hb, "gr": gr}
+                    content[str(book)][str(chap_num)][str(verse_num)][str(word)] = {"hb": hb, "gr": gr}
                     word += 1
         return content
 
@@ -166,5 +166,5 @@ class BetacodeTranformer:
 if __name__ == "__main__":
     for file in Path(INPUT_FOLDER).glob(EXTENSION):
         print(f"Converting file : {file.name}")
-        BetacodeTranformer(file).dump(Path(OUTPUT_FOLDER) / file.name)
+        BetacodeTransformer(file).dump(Path(OUTPUT_FOLDER) / file.name)
 print("Done... 🥳")
